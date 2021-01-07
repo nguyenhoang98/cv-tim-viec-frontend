@@ -137,20 +137,15 @@ ul{
     left:50% ;
     transform: translate(-50% , -50%);
     color:white ;
-    text-transform: uppercase;
-    font-size: 35px;
+    font-size: 30px;
     text-align:center ;
 }
+
 .section-about{
     width:100% ;
 }
 .about{
-    width:50% ;
     height: auto;
-    background:white ;
-    margin:auto ;
-    transform: translateY(-130px);
-    box-shadow: 0px 6px 6px #ccc;
     border-radius: 16px;
     padding:20px ;
 }
@@ -158,13 +153,17 @@ ul{
      font-size: 30px;
 }
 .about-title{
-    font-size: 17px;
-    color:rgb(99, 99, 99) ;
+    text-align:center ;
 }
 .info{
-    margin-top:10px ;
-    border-top:0.5px solid rgb(99, 99, 99) ; 
-    padding-top:20px ;
+    margin-top:10px ; 
+    padding:30px ;
+}
+.info-left{
+   font-weight: bold;
+}
+.info-right{
+    color:rgb(99, 99, 99) ;
 }
 .col-3{
     font-weight: bold;
@@ -175,7 +174,6 @@ ul{
 }
 .section-objective{
     padding:20px ;
-    margin-top:-120px ;
 }
 .objective-title{
     text-align:center ;

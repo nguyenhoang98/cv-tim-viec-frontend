@@ -1,4 +1,4 @@
-var hello = "XIN CHÀO MỌI NGƯỜI";
+var hello = "Xin Chào Mọi Người";
 var txt = document.getElementById("hello");
 var speed = 50;
 var i = 0;
@@ -19,10 +19,11 @@ function typeWriter() {
 }
 for (let j = 0; j < menulink.length; j++) {
   menulink[j].onclick = function () {
-    removeClassMenuLink();
-    this.classList.add("action_link_menu");
     if (widthpage <= 992) {
       closeMenu();
+    } else {
+      removeClassMenuLink();
+      this.classList.add("action_link_menu");
     }
   };
 }
