@@ -19,11 +19,10 @@ function typeWriter() {
 }
 for (let j = 0; j < menulink.length; j++) {
   menulink[j].onclick = function () {
+    removeClassMenuLink();
+    this.classList.add("action_link_menu");
     if (widthpage <= 992) {
       closeMenu();
-    } else {
-      removeClassMenuLink();
-      this.classList.add("action_link_menu");
     }
   };
 }
